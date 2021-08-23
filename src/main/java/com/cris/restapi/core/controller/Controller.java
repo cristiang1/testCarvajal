@@ -34,10 +34,10 @@ public class Controller {
         return ResponseEntity.status(HttpStatus.CREATED).build();
     }
 
-    @PutMapping("/tarjeta/editar/{id}")
+    /*@PutMapping("/tarjeta/editar/{id}")
     public ResponseEntity<Tarjeta> editar(Tarjeta tarjeta){
         return ResponseEntity.status(HttpStatus.CREATED).build();
-    }
+    }*/
 
 
     @DeleteMapping("tarjeta/eliminar{id}")
