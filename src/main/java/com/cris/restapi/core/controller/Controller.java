@@ -1,19 +1,13 @@
 package com.cris.restapi.core.controller;
 
-import com.cris.restapi.core.entity.Cliente;
 import com.cris.restapi.core.entity.Tarjeta;
 import com.cris.restapi.core.service.IClienteService;
 import com.cris.restapi.core.service.ITarjetaService;
-import com.fasterxml.jackson.databind.ObjectMapper;
-import com.fasterxml.jackson.databind.annotation.JsonDeserialize;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
-
-import java.net.http.HttpResponse;
-import java.util.Iterator;
 import java.util.List;
 
 @RestController
